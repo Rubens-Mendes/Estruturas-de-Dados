@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-/*A LDS é uma das estruturas mais simples que existe, ela é composta de um vetor de tamanho fixo, portanto as inserções
+/*A Lista Dinâmica Sequencial é uma das estruturas mais simples que existe, ela é composta de um vetor de tamanho fixo,
+ * portanto as inserções
  *são feitas linearmente até que seja atingido o limite do vetor. Porém uma particularidade da LDS é que ao atingir
  *seu limite, o tamanho do vetor é dobrado, e caso o número de elementos deste fique pela metade, o mesmo é dividido por 2*/
 class LDS{
